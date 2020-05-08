@@ -8,8 +8,7 @@ import '../../assets/scss/menu.scss';
 const Menu = BurgerMenu['slide'];
 
 const links = [
-  { link: '', text: 'Home' },
-  { link: 'demo', text: 'Try the Marketplace' },
+  { link: '', text: 'Data Marketplace' },
   { link: 'specs', text: 'Specifications' },
   { link: 'business', text: 'Co-Creation Ecosystem' },
   { link: 'involved', text: 'Get involved' },

@@ -20,10 +20,10 @@ const Header = ({ onAnchorClick }) => {
         <Tagline>Try the Data Marketplace</Tagline>
       </Shapes>
       <Info>
-        <Link to={'/demo/#map'} onClick={() => onAnchorClick('map')}>
+        <Link to={'/#map'} onClick={() => onAnchorClick('map')}>
           <SubLink>{'Sensors on the Map'.toUpperCase()}</SubLink>
         </Link>
-        <Link to={'/demo/#list'} onClick={() => onAnchorClick('list')}>
+        <Link to={'/#list'} onClick={() => onAnchorClick('list')}>
           <SubLink>{'Marketplace Sensors'.toUpperCase()}</SubLink>
         </Link>
       </Info>

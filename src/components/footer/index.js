@@ -6,29 +6,8 @@ export default props => (
     <ContentOuterWrapper>
       <ContentInnerWrapper>
         <LinksOuterWrapper>
-          <LinksInnerWrapper>
-            <A order={1} href="https://iota.org/">
-              iota.org
-            </A>
-            <A order={2} href="https://blog.iota.org/">
-              blog.iota.org
-            </A>
-            <AIMG order={3} href="https://iota.org/">
-              <IMG
-                src="/static/logotypes/logo-footer.png"
-                srcSet="/static/logotypes/logo-footer@2x.png 2x"
-                alt="IOTA logotype"
-              />
-            </AIMG>
-            <A order={4} href="https://ecosystem.iota.org/">
-              ecosystem.iota.org
-            </A>
-            <A order={5} href="https://docs.iota.org/">
-              docs.iota.org
-            </A>
-          </LinksInnerWrapper>
           <Nav>
-            <Copy>© 2018-2019 IOTA Foundation. All rights reserved.</Copy>
+            <Copy>© 2020 griot.io, All rights reserved.</Copy>
           </Nav>
         </LinksOuterWrapper>
         <Wrapper>

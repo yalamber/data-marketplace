@@ -4,17 +4,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const links = [
-  { link: '', text: 'Home' },
-  { link: 'demo', text: 'Try the Marketplace' },
+  { link: '', text: 'The Marketplace' },
   { link: 'specs', text: 'Specifications' },
-  { link: 'business', text: 'Co-Creation Ecosystem' },
   { link: 'involved', text: 'Get involved' },
 ];
 
 const MiniHeader = props => (
   <Container>
     <A to={'/'}>
-      <img src="/static/logotypes/logo-header.svg" alt="Logo IOTA" />
+      <img src="/static/logotypes/griot_logo.svg" width="150" alt="Logo GRIOT" />
     </A>
     {links.map(
       ({ link, text }) =>

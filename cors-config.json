@@ -2,7 +2,8 @@
     {
       "origin": [
         "http://localhost:3000",
-        "https://data.iota.org"
+        "http://localhost:3002",
+        "https://data.griot.io"
       ],
       "responseHeader": ["Content-Type"],
       "method": ["OPTIONS", "GET", "POST", "PUT", "DELETE"],

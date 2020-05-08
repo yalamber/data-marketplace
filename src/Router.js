@@ -23,8 +23,8 @@ class Router extends Component {
       <CookiesProvider>
         <HashRouter>
           <Switch>
-            <Route path="/" component={HomePage} exact />
-            <Route path="/demo" component={DemoPage} />
+            {/*<Route path="/" component={HomePage} exact />*/}
+            <Route path="/" component={DemoPage} exact />
             <Route path="/specs" component={TechSpecsPage} />
             <Route path="/business" component={BusinessPage} />
             <Route path="/involved" component={GetInvolvedPage} />
