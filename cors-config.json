@@ -3,7 +3,8 @@
       "origin": [
         "http://localhost:3000",
         "http://localhost:3002",
-        "https://data.griot.io"
+        "https://data.griot.io",
+        "https://griotmarketplace-3832f.web.app"
       ],
       "responseHeader": ["Content-Type"],
       "method": ["OPTIONS", "GET", "POST", "PUT", "DELETE"],
